@@ -43,7 +43,8 @@ PRODUCT_COPY_FILES += \
 # GPS and Light
 PRODUCT_PACKAGES += \
     gps.skyrocket \
-    lights.skyrocket
+    lights.skyrocket \
+    sensors.skyrocket
 
 # Kernel and modules
 ifeq ($(TARGET_PREBUILT_KERNEL),)
